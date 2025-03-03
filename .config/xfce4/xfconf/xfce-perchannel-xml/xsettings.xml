@@ -37,6 +37,7 @@
     <property name="TitlebarMiddleClick" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
     <property name="ToolbarIconSize" type="empty"/>
+    <property name="ShellShowsMenubar" type="bool" value="true"/>
   </property>
   <property name="Gdk" type="empty">
     <property name="WindowScalingFactor" type="empty"/>

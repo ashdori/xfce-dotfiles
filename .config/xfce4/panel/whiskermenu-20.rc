@@ -1,5 +1,5 @@
 favorites=xfce4-run.desktop,conky-toggle.desktop,libreoffice-startcenter.desktop,mx-tools.desktop,mx-packageinstaller.desktop,Help.desktop,xfce4-taskmanager.desktop,xfce4-terminal.desktop,Quick_System_Info.desktop
-recent=htop.desktop,insomnia.desktop,xfce-backdrop-settings.desktop,lightdm-gtk-greeter-settings.desktop,xfce-display-settings.desktop,xfce-ui-settings.desktop,abdownloadmanager-ABDownloadManager.desktop,gufw.desktop,advert-block.desktop,org.gnome.FontManager.desktop
+recent=htop.desktop,mx-packageinstaller.desktop,insomnia.desktop,xfce-backdrop-settings.desktop,lightdm-gtk-greeter-settings.desktop,xfce-display-settings.desktop,xfce-ui-settings.desktop,abdownloadmanager-ABDownloadManager.desktop,gufw.desktop,advert-block.desktop
 button-title=Applications Menu
 button-icon=/usr/local/share/icons/mxfcelogo-rounded.png
 button-single-row=false
