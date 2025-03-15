@@ -1,2 +1,2 @@
 # xfce-dotfiles
-![xfce-ae86](xfce-ae86.png)
+![xfce-default](xfce-default.png)

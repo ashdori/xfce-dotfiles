@@ -10,6 +10,7 @@
       <property name="&lt;Alt&gt;F3" type="empty">
         <property name="startup-notify" type="empty"/>
       </property>
+      <property name="XF86LogOff" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
@@ -27,8 +28,18 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="empty"/>
       <property name="&lt;Super&gt;r" type="empty">
+        <property name="XF86Calendar" type="empty"/>
+        <property name="XF86Memo" type="empty"/>
+        <property name="XF86Terminal" type="empty"/>
+        <property name="XF86Explorer" type="empty"/>
+        <property name="XF86AudioMedia" type="empty"/>
+        <property name="XF86AudioPlay" type="empty"/>
+        <property name="XF86AudioPrev" type="empty"/>
+        <property name="XF86AudioNext" type="empty"/>
+        <property name="XF86Calculator" type="empty"/>
         <property name="startup-notify" type="empty"/>
       </property>
+      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
@@ -49,6 +60,7 @@
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder --collapsed"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;m" type="string" value="magnus"/>
+      <property name="Super_L" type="string" value="/usr/bin/xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -107,8 +119,8 @@
       <property name="&lt;Primary&gt;F12" type="empty"/>
       <property name="&lt;Super&gt;KP_Left" type="empty"/>
       <property name="&lt;Super&gt;KP_Right" type="empty"/>
-      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Home" type="empty"/>
       <property name="&lt;Super&gt;KP_End" type="empty"/>

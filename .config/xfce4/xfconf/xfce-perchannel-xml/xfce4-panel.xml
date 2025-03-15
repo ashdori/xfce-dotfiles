@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
@@ -67,18 +67,46 @@
       <property name="numbering" type="bool" value="false"/>
       <property name="wrap-workspaces" type="bool" value="false"/>
     </property>
-    <property name="plugin-20" type="string" value="whiskermenu"/>
+    <property name="plugin-20" type="string" value="whiskermenu">
+      <property name="button-title" type="string" value="Applications Menu"/>
+      <property name="button-icon" type="string" value="/home/asdori/Pictures/distributor-logo-fedora.1024x1023.png"/>
+      <property name="launcher-icon-size" type="int" value="1"/>
+      <property name="hover-switch-category" type="bool" value="true"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="470"/>
+      <property name="menu-height" type="int" value="550"/>
+      <property name="show-command-switchuser" type="bool" value="true"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-run.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce-backdrop-settings.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="xfce4-power-manager-settings.desktop"/>
+        <value type="string" value="geany.desktop"/>
+        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="firewall-config.desktop"/>
+        <value type="string" value="xfce-display-settings.desktop"/>
+      </property>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-profile-alternate" type="bool" value="true"/>
+    </property>
     <property name="plugin-1" type="string" value="clock">
       <property name="mode" type="uint" value="2"/>
       <property name="command" type="string" value="orage"/>
       <property name="digital-layout" type="uint" value="3"/>
-      <property name="digital-time-format" type="string" value="%A, %d %B | %I:%M %p"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
       <property name="digital-time-font" type="string" value="Sans Bold 9"/>
       <property name="show-week-numbers" type="bool" value="true"/>
     </property>
     <property name="plugin-5" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox;zen"/>
+      <property name="known-players" type="string" value="firefox;org.mozilla.firefox;zen"/>
     </property>
     <property name="plugin-7" type="string" value="power-manager-plugin"/>
     <property name="plugin-11" type="string" value="docklike"/>
@@ -107,21 +135,30 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-9" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
       <property name="show-handle" type="bool" value="false"/>
       <property name="show-tooltips" type="bool" value="true"/>
       <property name="middle-click" type="uint" value="0"/>
-      <property name="show-only-minimized" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
     </property>
     <property name="plugin-12" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “izarc-wifi 2” active: izarc-wifi 2 (47%)"/>
+        <value type="string" value="wi-fi network connection “izarc-wifi 2” active: izarc-wifi 2 (40%)"/>
+        <value type="string" value="wi-fi network connection “izarc-wifi 2” active: izarc-wifi 2 (42%)"/>
+        <value type="string" value="seapplet"/>
+        <value type="string" value="wi-fi network connection “izarc-wifi 2” active: izarc-wifi 2 (44%)"/>
         <value type="string" value="mx-usb-unmounter"/>
         <value type="string" value="wi-fi network connection “izarc-wifi 2” active: izarc-wifi 2 (36%)"/>
         <value type="string" value="ab download manager"/>
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="dnfdragora-updater"/>
         <value type="string" value="blueman"/>
         <value type="string" value="apt-notifier.py"/>
         <value type="string" value="example-simple-client"/>

@@ -1,5 +1,5 @@
 [user]
-pinned=/usr/share/applications/thunar.desktop;/usr/share/applications/xfce4-terminal.desktop;/var/lib/flatpak/exports/share/applications/app.zen_browser.zen.desktop;/usr/share/applications/code.desktop;/usr/share/applications/discord.desktop;
+pinned=thunar;xfce4-terminal;code;org.mozilla.firefox;discord;
 indicatorStyle=2
 inactiveIndicatorStyle=2
 indicatorOrientation=0
