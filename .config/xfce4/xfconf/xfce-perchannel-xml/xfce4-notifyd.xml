@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-notifyd" version="1.0">
   <property name="expire-timeout" type="int" value="3"/>
@@ -17,6 +17,7 @@
       <value type="string" value="Xfce4-notifyd settings"/>
       <value type="string" value="nm-applet"/>
       <value type="string" value="app.zen_browser.zen"/>
+      <value type="string" value="Firefox"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
       <value type="string" value="notify-send"/>
