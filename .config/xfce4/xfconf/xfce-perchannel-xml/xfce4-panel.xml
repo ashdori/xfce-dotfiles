@@ -11,25 +11,23 @@
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="21"/>
+      <property name="size" type="uint" value="20"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="14"/>
         <value type="int" value="1"/>
         <value type="int" value="4"/>
         <value type="int" value="27"/>
-        <value type="int" value="2"/>
+        <value type="int" value="18"/>
         <value type="int" value="3"/>
-        <value type="int" value="5"/>
-        <value type="int" value="6"/>
+        <value type="int" value="19"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
-        <value type="int" value="10"/>
-        <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
       </property>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="leave-opacity" type="uint" value="98"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="1"/>
@@ -41,17 +39,10 @@
         <value type="int" value="15"/>
         <value type="int" value="16"/>
         <value type="int" value="7"/>
-        <value type="int" value="21"/>
       </property>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="bool" value="false"/>
-      <property name="flat-buttons" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="show-wireframes" type="bool" value="false"/>
-    </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -60,33 +51,12 @@
       <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="false"/>
     </property>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “rohamah” active: rohamah (71%)"/>
-        <value type="string" value="wi-fi network connection “rohamah” active: rohamah (72%)"/>
-        <value type="string" value="wi-fi network connection “rohamah” active: rohamah (61%)"/>
-        <value type="string" value="ethernet network connection “wired connection 1” active"/>
-        <value type="string" value="firewall-applet"/>
-        <value type="string" value=""/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="firewall-applet"/>
-      </property>
-    </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="known-players" type="string" value="firefox"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
-    <property name="plugin-11" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-time-format" type="string" value="%I:%M %p"/>
@@ -96,7 +66,6 @@
     </property>
     <property name="plugin-15" type="string" value="showdesktop"/>
     <property name="plugin-16" type="string" value="separator"/>
-    <property name="plugin-21" type="string" value="separator"/>
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="view-mode" type="int" value="1"/>
       <property name="profile-shape" type="int" value="1"/>
@@ -145,5 +114,11 @@
       <property name="style" type="uint" value="1"/>
     </property>
     <property name="plugin-7" type="string" value="docklike"/>
+    <property name="plugin-18" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+    </property>
+    <property name="plugin-19" type="string" value="wavelan"/>
   </property>
 </channel>
