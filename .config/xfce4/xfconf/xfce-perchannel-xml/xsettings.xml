@@ -30,7 +30,7 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="Colloid-Pastel-cursors-dark"/>
+    <property name="CursorThemeName" type="string" value="Kaela-Kovalskia-v2"/>
     <property name="CursorThemeSize" type="int" value="17"/>
     <property name="DecorationLayout" type="string" value="icon,menu:minimize,maximize,close"/>
     <property name="DialogsUseHeader" type="bool" value="false"/>

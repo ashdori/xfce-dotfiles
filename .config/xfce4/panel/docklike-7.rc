@@ -1,4 +1,4 @@
 [user]
-pinned=/usr/share/applications/xfce4-terminal.desktop;/usr/share/applications/thunar.desktop;/usr/share/applications/firefox.desktop;/usr/share/applications/code.desktop;/usr/share/applications/discord.desktop;
+pinned=/usr/share/applications/xfce4-terminal.desktop;/usr/share/applications/thunar.desktop;/usr/share/applications/brave-browser.desktop;/usr/share/applications/code.desktop;/usr/share/applications/discord.desktop;
 indicatorStyle=2
 inactiveIndicatorStyle=4
